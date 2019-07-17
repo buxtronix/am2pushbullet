@@ -17,7 +17,7 @@ Configure as a webhook endpoint in alertmanager.yml:
 ```
 - name: 'default-receiver'
   webhook_configs:
-  - url: http://127.0.0.1:5001/alerts
+  - url: http://127.0.0.1:5001/alert
 ```
 
 Set the host/port in the URL to match where this gateway is running.
