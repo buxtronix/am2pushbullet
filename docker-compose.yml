@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  am2pushbullet:
+    # build: .
+    # image: {am2pushbullet_IMAGE}
+    environment: 
+      - API_KEY={YOUR_API_KEY}
+      - LISTEN_PORT={YOUR_PORT}
